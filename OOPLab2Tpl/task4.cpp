@@ -55,9 +55,9 @@ int main() {
     outDecryptedFile << decrypted;
     outDecryptedFile.close();
 
-    std::cout << "Encryption and decryption completed.\n"
-              << "Encrypted text saved to: " << encryptedFile << "\n"
-              << "Decrypted text saved to: " << decryptedFile << std::endl;
+    std::cout << "Шифрування і розшифровування пройшло успішно.\n"
+              << "Зашифровапний текст знаходиться: " << encryptedFile << "\n"
+              << "Розшифрований текст знаходиться: " << decryptedFile << std::endl;
 
     return 0;
 }
