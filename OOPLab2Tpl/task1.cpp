@@ -4,7 +4,6 @@ int main() {
     int a, b, c, d;
     std::cout << "Введіть значення a, b, c та d: ";
     std::cin >> a >> b >> c >> d;
-
     // Обчислення виразу:
     // 17*a + 312*c переведемо в суму та зсуви
     // 17 * a = (16 * a + a) => (a << 4) + a
@@ -23,6 +22,5 @@ int main() {
     int result = firstPart - bPart + dPart;
 
     std::cout << "Результат обчислення виразу: " << result << "\n";
-
     return 0;
 }
